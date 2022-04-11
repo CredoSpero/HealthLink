@@ -1,0 +1,80 @@
+.SeverityPD-Container {
+  display: flex;
+  justify-content: center;
+  /* margin-right: 140px; */
+}
+
+.SeverityPD-Grid {
+  display: grid;
+  grid-template-columns: 50px 700px;
+  grid-template-rows: 49px;
+  width: 750px;
+}
+
+.SeverityPD-Grid img {
+  margin: 0 auto;
+  grid-column: 1 / 2;
+  align-self: center;
+}
+
+.SeverityPD-Grid h1 {
+  grid-column: 2 / 3;
+  align-self: center; /* align items within grid box vertically */
+  justify-self: start; /* align items within grid box horisontally */
+  font-size: 25px;
+}
+
+.SeverityPD-Grid-Condition {
+  grid-column: 1 / -1;
+  grid-row: 2 / 3;
+  align-self: center;
+  justify-self: center;
+  background-color: #ffffff;
+  border-radius: 20px;
+  opacity: 0.8;
+  /* width: 500px; */
+  text-align: center;
+  /* margin: 5px; */
+}
+
+.SeverityPD-Grid-Condition h2 {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: 5px;
+  margin-right: 5px;
+  /* width: merge() */
+}
+
+.SeverityPD-Grid p {
+  grid-column: 1 / -1;
+  grid-row: 3 / 4;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+  margin-top: 1%;
+}
+
+.SeverityPD-Grid-Solution {
+  grid-column: 1 / -1;
+  grid-row: 4 / 5;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 15px;
+  opacity: 0.8;
+  width: 95%;
+  margin-bottom: 2%;
+}
+
+.SeverityPD-Grid-Solution u {
+  text-align: center;
+}
+
+.SeverityPD-Grid-Solution ul {
+  /* margin-block-start: 0cm; */
+  /* padding-inline-start: 0px; */
+  text-align: start;
+  margin-block-start: 10px;
+  padding-left: 10%;
+}

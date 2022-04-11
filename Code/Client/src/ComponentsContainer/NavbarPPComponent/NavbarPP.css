@@ -1,0 +1,26 @@
+nav{
+  display: flex;
+  justify-content: center;
+  margin-right: 140px;
+  padding-top: 1.3%;
+  padding-bottom: 0%;
+}
+
+.Logo{
+  padding-top: 1.3%;
+}
+
+.NavTextPP{
+  display: flex;
+  flex-direction: column;
+  margin-left: 2%;
+  align-items: center;
+  padding-top: 0.3%;
+  width: 70%;
+  font-size: 23px;
+  text-align:center;
+}
+
+.NavTextPP > p{
+  margin-top: -2%;
+}

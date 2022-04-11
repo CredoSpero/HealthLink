@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:400,700,500|Poppins:400,700,300,600,800|Roboto:400,700");
+
+.title {
+    letter-spacing: 0;
+    min-height: 69px;
+    text-align: left;
+    width: 1202px;
+    color: gray;
+    font-weight: 500;
+    position: relative;
+    bottom: 10px;
+  }
+
+.rectangle_6 {
+  position: absolute;
+  /* left: 0%; */
+  background-color:  #E8E8E8;
+  height: 8%;
+  width: 90%;
+  /* height: 5%;
+  width: 90%;
+  border: 0;
+  margin-top: 1%;
+  margin-left: 2%;
+  margin-bottom: 2%; */
+  margin-top: 1%;
+  margin-left: 5%;
+}
+
+.search_box {
+  position: absolute;
+  /* left: 0%; */
+  background-color:  #E8E8E8;
+  height: 6.3%;
+  width: 90%;
+  /* height: 5%;
+  width: 90%;
+  border: 0;
+  margin-top: 1%;
+  margin-left: 2%;
+  margin-bottom: 2%; */
+  margin-top: 1%;
+  margin-left: 5%;
+  overflow: scroll;
+}
+
+/* 
+.rectangle-12 {
+  background-color: rgb(125, 209, 125);
+  height: 10%;
+  width: 100%;
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+} */
+
+.rectangle_4 {
+    background-color: #E8E8E8;
+    height: 65%;
+    width: 90%;
+    position:absolute;
+    top:28%;
+    margin-left: 5%;
+    margin-top: 3%;
+    padding-left: 0.5%;
+  }
+
+.rectangle-12 {
+    background-color: rgb(125, 209, 125);
+    height: 100%;
+    position: absolute;
+    left:85%;
+    width: 15%;
+    border: 0px;
+  }
+
+.get_diagnosis {
+    /* font-size: 150%;
+    text-align: center;
+    position: relative;
+    vertical-align: middle; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150%;
+  }
+
+  .select_container{
+    width: 70%;
+    height: 100%;
+  }

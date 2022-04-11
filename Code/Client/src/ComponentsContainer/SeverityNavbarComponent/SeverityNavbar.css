@@ -1,0 +1,17 @@
+.SeverityNavbar-container {
+  display: flex;
+  justify-content: center;
+  /* margin-right: 140px; */
+  padding-top: 1.3%;
+  padding-bottom: 0%;
+}
+
+.Severity-text {
+  margin-left: 2%;
+  text-align: center;
+  align-items: center;
+  padding-top: 0.3%;
+  height: 142.05px;
+  width: 607.23px;
+  font-size: 23px;
+}

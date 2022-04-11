@@ -1,0 +1,15 @@
+.SeverityMidPage-container {
+  display: flex;
+  justify-content: center;
+}
+
+.SeverityMidPage-grid {
+  display: grid;
+  row-gap: 40px;
+  /* grid-template-columns: 1fr 1fr; */
+}
+
+.SeverityMidTryAgain {
+  align-self: start;
+  justify-self: start;
+}

@@ -1,0 +1,15 @@
+.SeverityLowPage-container {
+  display: flex;
+  justify-content: center;
+}
+
+.SeverityLowPage-grid {
+  display: grid;
+  row-gap: 40px;
+  /* grid-template-columns: 1fr 1fr; */
+}
+
+.SeverityLowTryAgain {
+  align-self: start;
+  justify-self: start;
+}

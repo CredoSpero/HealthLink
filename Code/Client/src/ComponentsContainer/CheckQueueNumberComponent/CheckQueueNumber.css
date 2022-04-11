@@ -1,0 +1,47 @@
+
+.CheckQueueNumberRectangle{
+    height: 40vh;
+    width: 100vh;
+    margin: auto;
+    background-color: 	#ffffff;
+    border-style: solid;
+    border-radius: 12px;
+    border-color: black;
+  }
+
+  .CheckQueueNumberNameNRIC{
+    margin-top: 5%;
+    margin-left: 10%;
+    font-size: 150%;
+    text-align: left;
+  }
+  .CheckQueueNumberInputBox{
+    height:5vh;
+    width: 80vh;
+  }
+
+
+  .CheckQueueNumberCheckQueueNumber{
+    height: 5vh;
+    width: 80vh;
+    margin: auto;
+    margin-top:10%;
+    background-color: 	#ffffff;
+    border-style: solid;
+    border-radius: 12px;
+    border-color:#FF636E;
+    font-size: 150%;
+    color:#FF636E;
+    text-align: center;
+    box-shadow: 0.2em 0.2em #C6C6C6;
+    
+  }
+  .CheckQueueNumberCheckQueueNumber:hover{
+    background-color:#FF636E;
+    color: white;
+  }
+  
+  #search-button{
+    width: 100%;
+    height:100%
+  }

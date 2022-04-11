@@ -1,0 +1,365 @@
+.header{
+  height: 100%;
+  display: flex;
+  justify-content:space-between;
+}
+
+.head{
+  float:left;
+  margin-left: 3%;
+}
+
+.dist_dur{
+  float:right;
+  width: 180px;
+  margin-right: 1%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  height: 100vh;
+}
+
+.logo {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  text-align: left;
+  top: 5px;
+  left: 100px;
+  opacity: 100%;
+}
+
+.title {
+  position: absolute;
+  width: 400px;
+  height: 40px;
+  text-align: center;
+  top: 100px;
+  left: 75px;
+  font-size: 35px;
+  z-index: 30;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000000;
+  opacity: 80%;
+  border-radius: 30px;
+}
+
+.current-loc{
+  position:absolute;
+  top: 330px;
+  left: 395px;
+  align-items: center;
+  z-index:200;
+}
+
+.reset{
+  position:absolute;
+  top: 330px;
+  left: 345px;
+  align-items: center;
+  z-index:200;
+}
+
+.current-loc .circle{
+  width:40px;
+  height:40px;
+  font-weight: bold;
+  margin-right: 8px ;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.current-loc .circle:hover{
+  background-color:black;
+  color: white;
+}
+
+.reset .circle{
+  width:40px;
+  height:40px;
+  font-weight: bold;
+  margin-right: 8px ;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reset .circle:hover{
+  background-color:black;
+  color: white;
+}
+
+.search-container {
+  width: 400px;
+  height: 60px;
+  background-color: #FF636E;
+  position: absolute;
+  z-index: 100;
+  top: 320px;
+  left: 50px;
+  border-radius: 30px;
+  opacity: 100%;
+}
+
+.search {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  color:rgb(255, 255, 255);
+}
+
+.search input {
+  width: 100%;
+  font-size: 18px;
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+
+.search input:focus {
+  outline: none;
+  color: white;
+}
+
+
+.search input::placeholder{
+  color:white;
+  opacity: 70%;
+}
+
+.search i {
+  color: white;
+  font-size: 25px;
+}
+
+.hospitals-list-container {
+  width: 400px;
+  background-color: rgba(255, 255, 255, 0);
+  position: absolute;
+  z-index: 30;
+  top: 400px;
+  left: 50px;
+  border-radius: 20px;
+  bottom: 20px;
+  overflow: hidden;
+  height: 100%;
+  opacity: 80%;
+}
+
+.hospitals-list {
+  padding-left: 10px;
+  padding-right: 20px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  overflow-y:scroll;
+  height: 120vh;
+}
+
+.hospital-container {
+  display: flex;
+  border-bottom: 2px solid rgb(46, 43, 43);
+  cursor: pointer;
+}
+
+
+.hospital-info-container {
+  flex-grow: 1;
+}
+
+.hospital-address {
+  font-size: 16px;
+  /* color: #977979; */
+  margin-top: 7px;
+  font-weight: bold;
+}
+
+.hospital-name{
+  font-size: 16px;
+  /* color: #977979; */
+  margin-top: 7px;
+  font-weight: bold;
+}
+
+.hospital-opentime{
+  font-size: 16px;
+  /* color: #977979; */
+  margin-top: 7px;
+  font-weight: bold;
+}
+
+.hospital-address span {
+  display:block;  
+}
+
+.hospital-phone-number {
+  font-size: 16px;
+  /* color: #977979; */
+  margin-top: 7px;
+  font-weight: bold;
+}
+
+.hospital-number-container {
+  align-items: center;
+  display:flex;
+}
+
+
+.hospital-number {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(89, 185, 153);
+  border-radius: 50%;
+  color: white;
+}
+
+.hospital-info-window{
+  min-width: 350px;
+  font-size: 18px;
+  padding:8px;
+}
+
+.hospital-info-name {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.87)
+}
+
+.hospital-info-rating{
+  display: flex;
+  font-size: 24px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.87)
+}
+
+.hospital-info-icon {
+  font-size: 24px;
+}
+
+.hospital-info-status {
+  margin-top: 6px;
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 6px;
+}
+
+.hospital-info-address, .hospital-info-phone,  .hospital-info-beds{
+  display:flex;
+  margin-top: 8px;
+  align-items: center;
+}
+
+.hospital-info-queue{
+  margin-top: 8px;
+  background-color:#ffffff;
+  border-style: solid;
+  border-radius: 12px;
+  border-color:#FF636E;
+  font-size: 130%;
+  color:#FF636E;
+  text-align: center;
+  box-shadow: 0.2em 0.2em #C6C6C6;
+}
+.hospital-info-queue:hover{
+  background-color:#FF636E;
+  color: white;
+}
+
+.hospital-info-address .circle, .hospital-info-phone .circle , .hospital-info-beds .circle{
+  width:30px;
+  height:30px;
+  font-weight: bold;
+  margin-right: 8px ;
+  background-color: lightskyblue;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}  
+
+.hospital-container-background {
+  width:100%;
+  display:flex;
+  border-radius: 20px;
+  padding-left: 8px;  
+  padding-right: 3px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  align-items: center;
+  transition: background 0.2s ease-in-out;
+}
+.hospital-container-background:hover {
+  background-color: black;
+  color: white;
+} 
+.hospital-container-background:hover .image-container{
+  /* filter: brightness(100); */
+  background: black;
+  /* color: white; */
+}
+/* .hospital-container-background:hover .image-container>.website-button> .circle{
+  filter: brightness(4);
+  background:rgb(32, 71, 245);
+  background-color: black;
+} */
+.hospital-container-background:hover .direction-button{
+  color:black;
+}
+
+.image-container{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.website-button .circle{
+  width:40px;
+  height:40px;
+  font-weight: bold;
+  /* margin-right: 8px ; */
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.website-button .circle:hover{
+  background-color:black;
+  color: lightskyblue;
+}
+
+.direction-button .circle{
+  width:40px;
+  height:40px;
+  font-weight: bold;
+  /* margin-right: 8px ; */
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.direction-button .circle:hover{
+  background-color:black;
+  color: lightskyblue;
+}

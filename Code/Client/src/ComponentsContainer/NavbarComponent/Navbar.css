@@ -1,0 +1,27 @@
+nav{
+    display: flex;
+    justify-content: center;
+    margin-right: 140px;
+    padding-top: 1.3%;
+    padding-bottom: 0%;
+  }
+  
+  .NavText{
+    font-size: 23px;
+  }
+  
+  .Logo{
+    padding-top: 1.3%;
+  }
+  
+  .NavText{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    align-items: center;
+    padding-top: 0.3%;
+  }
+  
+  .NavText > p{
+    margin-top: -4%;
+  }

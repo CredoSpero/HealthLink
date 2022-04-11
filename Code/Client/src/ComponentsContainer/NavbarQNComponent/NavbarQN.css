@@ -1,0 +1,27 @@
+nav{
+  display: flex;
+  justify-content: center;
+  margin-right: 140px;
+  padding-top: 1.3%;
+  padding-bottom: 0%;
+}
+
+.NavTextQN{
+  font-size: 23px;
+  text-align:center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 2%;
+  align-items: center;
+  padding-top: 0.3%;
+  padding-bottom: 0%;
+}
+
+.Logo{
+  padding-top: 1.3%;
+}
+
+.NavTextQN > p{
+  margin-top: -2%;
+}
+

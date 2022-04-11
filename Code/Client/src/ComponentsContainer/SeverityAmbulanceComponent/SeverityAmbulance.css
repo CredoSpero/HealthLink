@@ -1,0 +1,22 @@
+.SeverityAmbulance-Container {
+  display: flex;
+  justify-content: center;
+  background-color: #ece2e2;
+  border: 1px solid #ff636e;
+  border-radius: 20px;
+}
+
+.SeverityAmbulance-Container h1 {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  color: #e4000072;
+}
+
+.SeverityAmbulance-Container:hover {
+  /* border: 1px solid #ff636e50; */
+  background-color: #e4000072;
+}
+
+.SeverityAmbulance-Container:hover h1 {
+  color: #ffffff;
+}

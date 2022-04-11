@@ -1,0 +1,38 @@
+.SeverityTryAgain-Container h1 {
+  margin-bottom: 0%;
+  margin-top: 5%;
+  color: #595656;
+  font-size: 24px;
+  margin-top: 0%;
+}
+
+.SeverityTryAgain-Container h2 {
+  font-size: 18px;
+  font-weight: normal;
+  color: #595656;
+  margin-top: 0%;
+}
+
+.TryAgain-Box {
+  border-radius: 20px;
+  border: 1px solid #ff636e;
+  /* height: 2%; */
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+.TryAgain-Box h2 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff636e;
+}
+
+.TryAgain-Box:hover {
+  background-color: #ff636e;
+}
+
+.TryAgain-Box:hover h2 {
+  color: #ffffff;
+}

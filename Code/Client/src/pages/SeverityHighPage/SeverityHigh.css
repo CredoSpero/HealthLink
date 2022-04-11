@@ -1,0 +1,15 @@
+.SeverityHighPage-container {
+  display: flex;
+  justify-content: center;
+}
+
+.SeverityHighPage-grid {
+  display: grid;
+  row-gap: 40px;
+  /* grid-template-columns: 1fr 1fr; */
+}
+
+.SeverityHighTryAgain {
+  align-self: start;
+  justify-self: start;
+}

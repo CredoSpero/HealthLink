@@ -1,0 +1,40 @@
+.SeveritySuggestions-container {
+  display: flex;
+  justify-content: center;
+  /* margin-right: 140px; */
+  /* padding-top: 1.3%; */
+  /* padding-bottom: 0%; */
+}
+
+.SeveritySuggestions-grid {
+  display: grid;
+  grid-template-columns: 50px 700px;
+  grid-template-rows: 49px;
+  /* min-height: 200px;
+  overflow: hidden; */
+  width: 750px;
+  /* justify-items: stretch; */
+}
+
+.SeveritySuggestions-grid img {
+  margin: 0 auto;
+  grid-column: 1 / 2;
+  align-self: center;
+}
+
+.SeveritySuggestions-grid h1 {
+  grid-column: 2 / 3;
+  align-self: center; /* align items within grid box vertically */
+  justify-self: start; /* align items within grid box horisontally */
+  font-size: 25px;
+}
+
+.suggestions-body {
+  grid-column: 1 / -1;
+  grid-row: 2 / 3;
+  /* grid-auto-rows: minmax(200px, auto); */
+}
+
+.suggestions-body ul {
+  list-style-type: circle;
+}

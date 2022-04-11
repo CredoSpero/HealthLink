@@ -1,0 +1,68 @@
+MongoDB API Documentation 
+
+Connection to MongoDB compass to view database
+
+
+
+1. To create new user
+
+	Method
+		POST /addUser
+
+	Required parameters (JSON body}
+		name (String)
+		NRIC (String, 9 characters)
+		hospital (String)
+
+	Return
+	
+		{
+    			"success": true,
+    			"data": {
+        			"name": "Tommy Shelby",
+        			"NRIC": "s1234567a",
+       				"hospital": "KK"
+    			}
+		}
+
+	Example request
+		curl --location --request POST 'http://localhost:9090/addUser' \
+		--header 'Content-Type: application/json' \
+		--data-raw '{
+    			"name":"Tommy Shelby",
+    			"NRIC":"s1234567a",
+    			"hospital": "KK"
+		}'
+
+
+2. To get a new user
+
+	Method
+		Get /getUser?NRIC=<PatientNRIC>
+
+	Return
+		{
+    			"success": true,
+    			"name": "TOMMY SHELBY",
+    			"hospital": "KK",
+    			"numAhead": 0
+		}
+
+	Example request
+		curl --location --request GET 'http://localhost:9090/getUser?NRIC=S1234567D' \
+		--data-raw ''
+
+3. To delete a user
+
+	Method
+		Delete /removeUser?NRIC=<PatientNRIC>
+
+	Return
+		{
+    			"success": true,
+    			"NRIC": "S1234567A",
+    			"hospital": "KK"
+		}
+
+	Example request
+		curl --location --request DELETE 'http://localhost:9090/removeUser?NRIC=S1234567A'

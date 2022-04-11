@@ -1,0 +1,79 @@
+
+.QueueInfoRectangle{
+    height: 60vh;
+    width: 100vh;
+    margin: auto;
+    background-color: 	#ffffff;
+    border-style: solid;
+    border-radius: 12px;
+    border-color: black;
+  }
+  .QueueInfoLeavetheQueue{
+    height: 5vh;
+    width: 100vh;
+    margin: auto;
+    margin-top:5%;
+    background-color: 	#ffffff;
+    color:#FF636E;
+    border-style: solid;
+    border-radius: 12px;
+    border-color:#FF636E;
+    text-align: center;
+    box-shadow: 0.2em 0.2em #C6C6C6;
+    font-size:150%;
+    font-weight:bolder;
+  }
+
+  .QueueInfoLeavetheQueue:hover{
+    background-color:#FF636E;
+    color: white;
+  }
+
+  .QueueInfoHi{
+    font-size:95%;
+    padding-left: 2%;
+  }
+
+  .QueueInfoAppointment{
+    padding-left: 4%;
+    font-size:150%;
+    float: left;
+    text-align: center;
+  }
+
+  .QueueInfoInfo{
+    color: #FF636E;
+    font-size:140%;
+    font-weight:bolder;
+  }
+
+  .QueueInfoPeopleAhead{
+    float:right;
+    text-align: center;
+    font-size: 140%;
+    padding-right: 4%;
+  }
+  
+  .QueueInfoQueueNumber{
+    clear: both;
+    text-align: center;
+    font-size: 140%;
+  }
+
+  .QueueNumber{
+    color: #FF636E;
+    font-size:440%;
+    font-weight:bolder;
+  }
+
+
+
+.colour{
+  color: #FF636E;
+  font-weight:bolder;
+}
+
+#QueueInfoLeaveButton{
+  width: 100%;
+  height:100%;
+}
