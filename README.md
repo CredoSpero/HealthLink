@@ -10,7 +10,7 @@ This web application was built for the project component of CZ2006 Software Engi
 - Included features such as enabling users to input their symptoms and getting a preliminary diagnosis of their condition using machine learning
 - Implemented other features in the app such as finding nearby healthcare facilties and their information as well as a queue management system for users to join the respective hospital queue
 - Enabled the diagnosis prediction by deploying the machine learning model on a `flask server` which is deployed on `Heroku`
-- Enabled searching for nearby hospital and getting directions to hospital by utilizing real-time data retrieval using `Geocode API` and `Directions API` from Google
+- Enabled searching for nearby hospital and getting directions to hospital by utilizing real-time data retrieval using `GoogleMaps Javascript API`, `Geocoding API` and `Directions API` from Google
 - The storage of the Hospital queue information is remote and implemented with `MongoDB Atlas multi-cloud database`.
 - The web application utilises a MERN stack, which is deployed on `Heroku` server.
 
